@@ -169,3 +169,11 @@ footer {
 .block4 h3 {
     margin-top: 30px;
 }
+
+.actions {
+    margin-top: 40px;
+}
+
+.actions img {
+    max-width: 1000px;
+}
