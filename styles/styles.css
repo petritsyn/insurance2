@@ -98,6 +98,10 @@ footer {
     transition: 0.4s;
 }
 
+.button_actions_mobile {
+    display: none;
+}
+
 /*------------------------------block2------------------------------------*/
 
 .block2 {

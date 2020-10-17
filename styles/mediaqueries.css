@@ -57,6 +57,18 @@
         text-align: center;
     }
 
+    .button_actions_mobile {
+        display: block;
+    }
+
+    .button_actions_mobile a {
+        text-decoration: none;
+    }
+
+    .button_actions {
+        display: none;
+    }
+
 /*---------------------------------block2-------------------------------------*/
 
     .block2 {
