@@ -165,6 +165,7 @@ footer {
 
 .block4 img {
     margin: 30px;
+    max-width: 90%;
 }
 
 .block4__content {
