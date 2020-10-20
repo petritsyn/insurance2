@@ -13,6 +13,10 @@
         text-align: center;
     }
 
+    .top {
+        flex-direction: column;
+    }
+
     .block1 {
         flex-direction: column;
     }

@@ -32,8 +32,34 @@ hr {
 }
 
 footer {
-    margin: 50px 0 50px 0;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
     color: grey;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.footer_hr {
+    margin: 40px 0;
+    color: #f5f5f6;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
 }
    
 /*------------------------------block1------------------------------------*/
