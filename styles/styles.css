@@ -44,10 +44,12 @@ footer a {
     text-decoration: none;
     font-size: 1.3em;
     text-align: center;
+    margin-top: 10px;
 }
 
 footer span {
     color: grey;
+    font-size: 1.3em;
 }
 
 .footer_hr {
@@ -231,4 +233,10 @@ footer span {
 
 .actions__mobile img {
     width: 100%;
+}
+
+/*-------------------------------block4------------------------------------*/
+
+.contacts {
+    border: 1px solid red;
 }

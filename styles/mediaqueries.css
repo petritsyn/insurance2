@@ -41,7 +41,8 @@
     }
 
     .block1 img {
-        width: 300px;
+        width: 250px;
+        margin: 10px;
     }
 
     .buttons {
@@ -127,18 +128,7 @@
         width: 100%;
     }
 
-/*--------------------------------actions-------------------------------------*/
-
-    .actions__desktop {
-        display: none;
-    }
-
-    .actions__mobile {
-        display: flex;
-        justify-content: center;
-    }
-
-    /*--------------------------------footer-------------------------------------*/
+/*--------------------------------footer-------------------------------------*/
 
     footer p {
         margin: 20px;
