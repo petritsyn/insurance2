@@ -240,3 +240,18 @@ footer span {
 .contacts {
     border: 1px solid red;
 }
+
+/*----------------------------form-contact---------------------------------*/
+
+.form__contact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__contact input {
+    width: 250px;
+    margin: 5px;
+    height: 30px;
+}
