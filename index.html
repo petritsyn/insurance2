@@ -138,19 +138,20 @@
             </div>
 
             <div class="header">Рассчитайте стоимость ОСАГО на калькуляторе</div>
-
+<!--
             <div id='calc'>
 
                 <script type="text/javascript" src="https://partners.inguru.ru/calc_iframe/js/inguru-calc.js"></script>
                 <div id="inguru-calculator_wrap" data-id="c2c2abdae7b515a20839d9f779364642" data-static="true"data-style="black" data-type="OSAGO" data-order="true" data-one="true"></div>
 
             </div>
-
+-->
             <div class="content">
-                <form action="telegram.php" method="POST" class="form__contact">
+                <form action="telegram.php" method="POST" class="form__contact" enctype="multipart/form-data">
                     <input type="text" name="user_name" placeholder="Ваше имя">
                     <input type="tel" name="user_phone" placeholder="Телефон">
                     <input type="email" name="user_email" placeholder="E-mail">
+                    <input type="file" name="user_files" accept="image/*" multiple>
                     <input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ">
                 </form>
             </div>
