@@ -1,6 +1,5 @@
 <?php
-// Автор: Дмитрий Давыдов
-// Материал с сайта https://smartlanding.biz/otpravka-dannyx-formy-v-telegram.html
+
 $msgs = [];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -20,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $types = array('image/gif', 'image/png', 'image/jpeg');
 
             // Максимальный размер файла
-            $size = 1024000;
+            $size = 10240000;
 
             // Проверяем тип файла
              if (!in_array($_FILES['file']['type'], $types)) {
